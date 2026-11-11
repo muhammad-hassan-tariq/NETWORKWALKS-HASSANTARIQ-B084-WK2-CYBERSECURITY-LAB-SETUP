@@ -28,8 +28,8 @@ Fingerprinted the web technologies (web server, CMS, plugins, IP address).
 whatweb networkwalks.com
 ```
 
-![whatweb output](
-)
+<img width="1256" height="238" alt="whatweb" src="https://github.com/user-attachments/assets/e0156024-3783-49b6-99b7-bb11414652da" />
+
 
 ### Step 3: Run nslookup
 Resolved the domain name to its IP address.
@@ -38,8 +38,8 @@ Resolved the domain name to its IP address.
 nslookup networkwalks.com
 ```
 
-![nslookup output](<img width="712" height="412" alt="nslookup" src="https://github.com/user-attachments/assets/608440eb-c8ef-4892-9a85-69f1c24daabd" />
-)
+![nslookup output]<img width="712" height="412" alt="nslookup" src="https://github.com/user-attachments/assets/608440eb-c8ef-4892-9a85-69f1c24daabd" />
+
 
 ### Step 4: Run curl
 Read the HTTP response headers (status, server banner, cookies, redirects).
