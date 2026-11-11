@@ -18,8 +18,7 @@ Opened a terminal in Kali Linux and queried the domain registration record (regi
 whois networkwalks.com
 ```
 
-![whois output]
-<img width="720" height="686" alt="whois" src="https://github.com/user-attachments/assets/6b5dbb12-2703-439a-87ee-41d1fee2ec06" />
+![whois output](<img width="720" height="686" alt="whois" src="https://github.com/user-attachments/assets/6b5dbb12-2703-439a-87ee-41d1fee2ec06" />)
 
 
 ### Step 2: Run whatweb
