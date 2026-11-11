@@ -90,14 +90,14 @@ Use Google dorks from the Exploit-DB Google Hacking Database (GHDB) to find publ
 ### Step 1: Open GHDB
 Opened [exploit-db.com](https://www.exploit-db.com) and clicked **GHDB** in the left-side menu.
 
-![Exploit-DB GHDB](<img width="1327" height="917" alt="image" src="https://github.com/user-attachments/assets/af284023-4f6f-4ef9-8405-bbd12e34aab0" />
-)
+<img width="1327" height="917" alt="image" src="https://github.com/user-attachments/assets/af284023-4f6f-4ef9-8405-bbd12e34aab0" />
+
 
 ### Step 2: Search for dorks
 Searched the term `cam` in GHDB and copied dorks one by one.
 
-![GHDB dork list](<img width="1662" height="762" alt="image" src="https://github.com/user-attachments/assets/6e30fabe-aee3-4a34-8753-0946384d2314" />
-)
+<img width="1662" height="762" alt="image" src="https://github.com/user-attachments/assets/6e30fabe-aee3-4a34-8753-0946384d2314" />
+
 
 ### Step 3: Run the dorks on Google (Task 1)
 Pasted each dork into Google and opened the results to check them, for example:
@@ -108,8 +108,8 @@ intitle:"Live View / - AXIS"
 inurl:/view/index.shtml
 ```
 
-![Dork search on Google](<img width="1012" height="772" alt="image" src="https://github.com/user-attachments/assets/17ac547c-2137-4647-b9ee-facebc947689" />
-)
+<img width="1012" height="772" alt="image" src="https://github.com/user-attachments/assets/17ac547c-2137-4647-b9ee-facebc947689" />
+
 
 ### Step 4: Find mathematics PDF listings (Task 2)
 Searched this dork on Google and opened each listing to confirm it contained downloadable PDFs:
@@ -118,8 +118,8 @@ Searched this dork on Google and opened each listing to confirm it contained dow
 intitle:index.of "parent directory" mathematics pdf
 ```
 
-![Math PDF directory listing](<img width="681" height="750" alt="image" src="https://github.com/user-attachments/assets/e7a73094-657a-42b1-b214-c96021232789" />
-)
+<img width="681" height="750" alt="image" src="https://github.com/user-attachments/assets/e7a73094-657a-42b1-b214-c96021232789" />
+
 
 ### Step 5: Record the findings
 Recorded each link, its dork and any credentials in the tables of the lab document.
@@ -139,38 +139,38 @@ Install Maltego on a Windows computer (Task 1) and find the email addresses rela
 ### Step 1: Download Maltego
 Downloaded Maltego Graph for Windows from maltego.com.
 
-![Maltego download](<img width="1202" height="880" alt="image" src="https://github.com/user-attachments/assets/320e9395-6eab-4c62-b091-950f1ae07f83" />
-)
+<img width="1202" height="880" alt="image" src="https://github.com/user-attachments/assets/320e9395-6eab-4c62-b091-950f1ae07f83" />
+
 
 ### Step 2: Install Maltego
 Ran the setup file as administrator. The installer also installed the required Java runtime (JRE 17).
 
-![Maltego installation](<img width="635" height="517" alt="Screenshot 2026-11-10 115934" src="https://github.com/user-attachments/assets/78002e16-01ee-4227-bae5-07b5a1923ecd" />
-)
+<img width="635" height="517" alt="Screenshot 2026-11-10 115934" src="https://github.com/user-attachments/assets/78002e16-01ee-4227-bae5-07b5a1923ecd" />
+
 
 ### Step 3: Activate with a Maltego ID
 Launched Maltego, selected **Maltego ID** with online activation, accepted the license and clicked **Browser Login**. Created a free Maltego ID in the browser and returned to Maltego with the default settings (default system browser, Privacy Mode: Normal).
 
-![Maltego activation](<img width="758" height="662" alt="Screenshot 2026-11-10 120631" src="https://github.com/user-attachments/assets/ed09000a-5575-48a5-86a6-fe16543ed221" />
-)
+<img width="758" height="662" alt="Screenshot 2026-11-10 120631" src="https://github.com/user-attachments/assets/ed09000a-5575-48a5-86a6-fe16543ed221" />
+
 
 ### Step 4: Add the domain entity
 Searched for **Domain** in the Entity Palette, dragged it onto the graph and renamed it to `networkwalks.com`.
 
-![Domain entity](<img width="1722" height="922" alt="Screenshot 2026-11-10 122832" src="https://github.com/user-attachments/assets/d3cda901-40b5-4345-8e60-69b1c1b93220" />
-)
+<img width="1722" height="922" alt="Screenshot 2026-11-10 122832" src="https://github.com/user-attachments/assets/d3cda901-40b5-4345-8e60-69b1c1b93220" />
+
 
 ### Step 5: Run email transforms
 Right-clicked the entity, filtered for email-related transforms and ran them.
 
-![Email transforms](<img width="1727" height="917" alt="Screenshot 2026-11-10 123838" src="https://github.com/user-attachments/assets/34a5cc69-75f4-4683-aeb9-1b7f397b24c3" />
-)
+<img width="1727" height="917" alt="Screenshot 2026-11-10 123838" src="https://github.com/user-attachments/assets/34a5cc69-75f4-4683-aeb9-1b7f397b24c3" />
+
 
 ### Step 6: Review the results
 The email addresses related to the domain were harvested and shown on the graph.
 
-![Email results](<img width="1732" height="920" alt="Screenshot 2026-11-10 125535" src="https://github.com/user-attachments/assets/1473ddc6-7625-4879-9384-0fdc96be4dc6" />
-)
+<img width="1732" height="920" alt="Screenshot 2026-11-10 125535" src="https://github.com/user-attachments/assets/1473ddc6-7625-4879-9384-0fdc96be4dc6" />
+
 
 ## Notes
 If Maltego does not redirect automatically after the browser login, click Back in the setup wizard and log in again. The Community Edition uses credits for transforms and limits the number of results.
@@ -194,8 +194,8 @@ Ran theHarvester with Baidu as the source and a limit of 1000 results. `-d` is t
 theHarvester -d microsoft.com -l 1000 -b baidu
 ```
 
-![Baidu search](<img width="671" height="690" alt="Screenshot 2026-11-08 085721" src="https://github.com/user-attachments/assets/9052e855-f2fc-4de1-afca-2f70e692e1ef" />
-)
+<img width="671" height="690" alt="Screenshot 2026-11-08 085721" src="https://github.com/user-attachments/assets/9052e855-f2fc-4de1-afca-2f70e692e1ef" />
+
 
 ### Step 3: Search with all sources (Task 2)
 Ran theHarvester with all sources and a limit of 50 results.
@@ -204,8 +204,8 @@ Ran theHarvester with all sources and a limit of 50 results.
 theHarvester -d microsoft.com -l 50 -b all
 ```
 
-![All sources search](<img width="685" height="542" alt="Screenshot 2026-11-11 142244" src="https://github.com/user-attachments/assets/ea802dd1-ac23-448c-9000-733482595d37" />
-)
+<img width="685" height="542" alt="Screenshot 2026-11-11 142244" src="https://github.com/user-attachments/assets/ea802dd1-ac23-448c-9000-733482595d37" />
+
 
 ### Step 4: Save the outputs
 Saved the screenshots and copied the outputs into text files.
@@ -229,14 +229,14 @@ Opened Command Prompt and ran `ipconfig` to find the PC's IP address and subnet 
 ipconfig
 ```
 
-![ipconfig output](<img width="618" height="262" alt="Screenshot 2026-11-11 142744" src="https://github.com/user-attachments/assets/c7191521-6499-4483-b421-d3a810447bf7" />
-)
+<img width="618" height="262" alt="Screenshot 2026-11-11 142744" src="https://github.com/user-attachments/assets/c7191521-6499-4483-b421-d3a810447bf7" />
+
 
 ### Step 3: Run a ping scan
 Opened Zenmap, entered the LAN subnet as the target, selected the **Ping scan** profile and clicked **Scan** (equivalent to `nmap -sn <subnet>`).
 
-![Ping scan results](<img width="1066" height="782" alt="Screenshot 2026-11-08 075841" src="https://github.com/user-attachments/assets/b44a50bd-2694-49e6-ada9-5c6ca1708ee2" />
-)
+<img width="1066" height="782" alt="Screenshot 2026-11-08 075841" src="https://github.com/user-attachments/assets/b44a50bd-2694-49e6-ada9-5c6ca1708ee2" />
+
 
 ### Step 4: Record the live hosts
 Counted the live hosts and noted their IP and MAC addresses. Used `ipconfig /all` to find the local PC's MAC address.
