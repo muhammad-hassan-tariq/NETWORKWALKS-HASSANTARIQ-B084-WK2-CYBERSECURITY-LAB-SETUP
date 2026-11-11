@@ -18,7 +18,7 @@ Opened a terminal in Kali Linux and queried the domain registration record (regi
 whois networkwalks.com
 ```
 
-![whois output]<img width="720" height="686" alt="whois" src="https://github.com/user-attachments/assets/6b5dbb12-2703-439a-87ee-41d1fee2ec06" />
+<img width="720" height="686" alt="whois" src="https://github.com/user-attachments/assets/6b5dbb12-2703-439a-87ee-41d1fee2ec06" />
 
 
 ### Step 2: Run whatweb
@@ -38,7 +38,7 @@ Resolved the domain name to its IP address.
 nslookup networkwalks.com
 ```
 
-![nslookup output]<img width="712" height="412" alt="nslookup" src="https://github.com/user-attachments/assets/608440eb-c8ef-4892-9a85-69f1c24daabd" />
+<img width="712" height="412" alt="nslookup" src="https://github.com/user-attachments/assets/608440eb-c8ef-4892-9a85-69f1c24daabd" />
 
 
 ### Step 4: Run curl
@@ -48,8 +48,8 @@ Read the HTTP response headers (status, server banner, cookies, redirects).
 curl -I https://networkwalks.com
 ```
 
-![curl headers](<img width="1263" height="445" alt="curl" src="https://github.com/user-attachments/assets/c4e4d73e-27e3-45ac-8ecb-11de3105a28e" />
-)
+<img width="1263" height="445" alt="curl" src="https://github.com/user-attachments/assets/c4e4d73e-27e3-45ac-8ecb-11de3105a28e" />
+
 
 ### Step 5: Run wafw00f
 Checked whether a Web Application Firewall is protecting the site.
@@ -58,8 +58,8 @@ Checked whether a Web Application Firewall is protecting the site.
 wafw00f networkwalks.com
 ```
 
-![wafw00f output](<img width="712" height="412" alt="nslookup" src="https://github.com/user-attachments/assets/73a7545c-51cd-40ab-abee-2f3c710a919f" />
-)
+<img width="712" height="412" alt="nslookup" src="https://github.com/user-attachments/assets/73a7545c-51cd-40ab-abee-2f3c710a919f" />
+
 
 
 ### Step 6: Run dnsrecon
@@ -69,8 +69,8 @@ Enumerated DNS records (name servers, mail servers, SPF/TXT and SRV records).
 dnsrecon -d networkwalks.com
 ```
 
-![dnsrecon output](<img width="1122" height="412" alt="dnsrecon" src="https://github.com/user-attachments/assets/c55fd137-52bc-42ae-bd5c-c40ef89d2d88" />
-)
+<img width="1122" height="412" alt="dnsrecon" src="https://github.com/user-attachments/assets/c55fd137-52bc-42ae-bd5c-c40ef89d2d88" />
+
 
 ### Step 7: Save the outputs
 Saved a screenshot of every command and copied each output into a text file for the final report.
