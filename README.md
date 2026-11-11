@@ -1,4 +1,4 @@
-<img width="720" height="686" alt="whois" src="https://github.com/user-attachments/assets/0ec7c1a5-97d7-4c67-a806-c8a312681454" />
+
 # Cybersecurity Lab: Week 2, PM1 to PM5
 
 **Name:** Muhammad Hassan Tariq
@@ -18,8 +18,9 @@ Opened a terminal in Kali Linux and queried the domain registration record (regi
 whois networkwalks.com
 ```
 
-![whois output](<img width="720" height="686" alt="whois" src="https://github.com/user-attachments/assets/c40181ce-6a1b-4765-8a53-f3b374cd8de0" />
-)
+![whois output]
+<img width="720" height="686" alt="whois" src="https://github.com/user-attachments/assets/6b5dbb12-2703-439a-87ee-41d1fee2ec06" />
+
 
 ### Step 2: Run whatweb
 Fingerprinted the web technologies (web server, CMS, plugins, IP address).
@@ -28,7 +29,7 @@ Fingerprinted the web technologies (web server, CMS, plugins, IP address).
 whatweb networkwalks.com
 ```
 
-![whatweb output](<img width="1256" height="238" alt="whatweb" src="https://github.com/user-attachments/assets/06437768-3f5c-485f-9a01-0188e5b87b84" />
+![whatweb output](
 )
 
 ### Step 3: Run nslookup
